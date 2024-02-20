@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color: blue;
+    line-height: 5 rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.msg-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color: rgb(247, 144, 144);
+    margin: 30px 580px 30px 580px;
+    border-radius: 330px;
+    font-weight: bold ;
+    /* margin-left: 600px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+    
+}
+.score-board{
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ font-weight: bolder ;
+ font-size: larger;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+ 
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor:pointer;
+}
